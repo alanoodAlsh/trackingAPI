@@ -1,0 +1,15 @@
+/Users/alanood/RiderProjects/trackingAPI/tracking.client/bin/Debug/net6.0/tracking.client
+/Users/alanood/RiderProjects/trackingAPI/tracking.client/bin/Debug/net6.0/tracking.client.deps.json
+/Users/alanood/RiderProjects/trackingAPI/tracking.client/bin/Debug/net6.0/tracking.client.runtimeconfig.json
+/Users/alanood/RiderProjects/trackingAPI/tracking.client/bin/Debug/net6.0/tracking.client.dll
+/Users/alanood/RiderProjects/trackingAPI/tracking.client/bin/Debug/net6.0/tracking.client.pdb
+/Users/alanood/RiderProjects/trackingAPI/tracking.client/obj/Debug/net6.0/tracking.client.csproj.AssemblyReference.cache
+/Users/alanood/RiderProjects/trackingAPI/tracking.client/obj/Debug/net6.0/tracking.client.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alanood/RiderProjects/trackingAPI/tracking.client/obj/Debug/net6.0/tracking.client.AssemblyInfoInputs.cache
+/Users/alanood/RiderProjects/trackingAPI/tracking.client/obj/Debug/net6.0/tracking.client.AssemblyInfo.cs
+/Users/alanood/RiderProjects/trackingAPI/tracking.client/obj/Debug/net6.0/tracking.client.csproj.CoreCompileInputs.cache
+/Users/alanood/RiderProjects/trackingAPI/tracking.client/obj/Debug/net6.0/tracking.client.dll
+/Users/alanood/RiderProjects/trackingAPI/tracking.client/obj/Debug/net6.0/refint/tracking.client.dll
+/Users/alanood/RiderProjects/trackingAPI/tracking.client/obj/Debug/net6.0/tracking.client.pdb
+/Users/alanood/RiderProjects/trackingAPI/tracking.client/obj/Debug/net6.0/tracking.client.genruntimeconfig.cache
+/Users/alanood/RiderProjects/trackingAPI/tracking.client/obj/Debug/net6.0/ref/tracking.client.dll
