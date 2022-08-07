@@ -1,4 +1,7 @@
 //using System.Data.Entity;
+
+using System.Data.SqlClient;
+using Dapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using trackingAPI.Data;
@@ -12,12 +15,32 @@ namespace trackingAPI.Controllers
     public class IssueController : ControllerBase
     {
         private readonly IssueDbContext _context;
+
+        private const String CONNECTION_STRING =
+            "Server=localhost; initial Catalog=IssueDB;user id=sa;password=[[Your-Password]];TrustServerCertificate=True";
+    
         public IssueController(IssueDbContext context) => _context = context;
         //turn on docker before testing
-        
+
         [HttpGet]
-        public async Task<IEnumerable<Issue>> Get()
-            =>await _context.Issues.ToListAsync();
+        public async Task<IActionResult> Get()
+        {
+            var sql = @"SELECT [id]
+                  ,[title]
+                  ,[description]
+                  ,[Priority]
+                  ,[IssueType]
+                  ,[Created]
+                  ,[Completed]
+              FROM [IssueDB].[dbo].[Issues]";
+            
+            using (var connection=new SqlConnection((CONNECTION_STRING)))
+            {
+                var issues = await connection.QueryAsync<Issue>(sql);
+                return Ok(issues);
+            }
+        }
+
         [HttpGet("{id}")]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> GetById(int id)

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "MQNPVGbbZ25UNnk7eXtUxjhw5NrR3NZe2yp8x0ULBNK8OK4o8FGNDyiYDyxKw6Mtb/Hzi+zD6NWyOydBCRw6RQ==",
+  "dgSpecHash": "l1tU7OhtTUS4RYbyonpbMqoZEt7eaNh9egpRaW7rUm9ilpui9dXL6aIUxMUM8G3aJmZ4CFcUx8rm6qJkoYwQqg==",
   "success": true,
   "projectFilePath": "/Users/alanood/RiderProjects/trackingAPI/trackingAPI/trackingAPI.csproj",
   "expectedPackageFiles": [
     "/Users/alanood/.nuget/packages/azure.core/1.20.0/azure.core.1.20.0.nupkg.sha512",
     "/Users/alanood/.nuget/packages/azure.identity/1.5.0/azure.identity.1.5.0.nupkg.sha512",
+    "/Users/alanood/.nuget/packages/dapper/2.0.123/dapper.2.0.123.nupkg.sha512",
     "/Users/alanood/.nuget/packages/entityframework/6.4.4/entityframework.6.4.4.nupkg.sha512",
     "/Users/alanood/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/alanood/.nuget/packages/microsoft.bcl.asyncinterfaces/1.0.0/microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
